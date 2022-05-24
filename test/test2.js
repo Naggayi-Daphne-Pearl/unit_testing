@@ -4,7 +4,7 @@ const factorial = require('./factor');
 
 describe('Testing our factorial', () => {
     it('should return 1 when given 0', () => {
-        assert.equal(factorial(-1), 1);
+        assert.equal(factorial(0), 1);
     });
     it('should return 1 when given 1', () => {
         assert.equal(factorial(1), 1);
