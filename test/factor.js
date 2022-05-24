@@ -1,16 +1,26 @@
 function factorialize(num) {
-
-    // any number less than 1 or negative should return 1; 
-    if (num <= 0 || num === 1)  // Validating input
-    return 1;
     
+    // Validation our inputs
+    // any number less than 1 or negative should return 1; 
+    if (num <= 0 || num === 1) 
+    return 1;
+
+    // // if a number is less than 1 reject it
+    // function factorialize(num) {
+    //     // If the number is less than 0, reject it.
+    //     if (num < 0) 
+    //           return -1;
+    // }
+
     // 
     for (var i = num - 1; i >= 1; i--) {
         num = num*i;              // Multiplying the number by the previous number
         }
         return num;
-    
+
 }
+
+    
 
 module.exports = factorialize;
 
