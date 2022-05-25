@@ -1,6 +1,3 @@
-/* eslint-disable no-sequences */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
 const { assert } = require('chai');
 const { multiply } = require('./multiply');
 
